@@ -40,8 +40,6 @@ try:
         for index, distribution in enumerate(distributed_rings):
             print(f"{index + 1}. {distribution}")
         
-        print()
-        
         print(f"Distribucion media {
             distributed_rings[int(len(distributed_rings) / 2)]}"
         )
